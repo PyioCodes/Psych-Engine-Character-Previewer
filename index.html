@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Psych Engine Character Previewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Psych Engine Character Previewer</h1>
+
+  <div class="controls">
+    <label>Spritesheet (PNG): <input type="file" id="pngInput" accept="image/png"></label>
+    <label>Atlas (XML): <input type="file" id="xmlInput" accept=".xml"></label>
+    <label>Character JSON: <input type="file" id="jsonInput" accept=".json"></label>
+  </div>
+
+  <div class="controls">
+    <label>Animation:
+      <select id="animSelect"></select>
+    </label>
+    <label>Speed: <input type="number" id="fpsInput" value="24" min="1"> fps</label>
+    <label>Zoom: <input type="range" id="zoomRange" min="0.5" max="4" step="0.1" value="1"></label>
+    <span id="zoomVal">1.0×</span>
+    <button id="flipX">Flip X</button>
+    <button id="flipY">Flip Y</button>
+  </div>
+
+  <canvas id="previewCanvas" width="600" height="400"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
