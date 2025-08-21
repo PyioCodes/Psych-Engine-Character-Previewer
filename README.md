@@ -1,0 +1,1 @@
+WARNING!!! This site is not ALLWAYS correct! espically when your sprite sheet looks weird or isnt similar to og fnf spritesheets! in my testings if in your sprite sheet your chars sprites are bigger than the char it self it freaks out sometimes!
